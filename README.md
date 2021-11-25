@@ -42,7 +42,10 @@ Alguns exemplos que motivariam as pessoas a utilizarem este projeto ou que demon
 ## Meta
 
 Seu nome - [@Seu Twitter](https://twitter.com/seuTwitter) - seuemail@gmail.com
+
 Distribuido sobre a licença. Veja `LICENÇA` para mais informações.
+
 [https://github.com/vanderleikoziol/koziol-git1]
+
 [https://github.com/vanderleikoziol]
 
