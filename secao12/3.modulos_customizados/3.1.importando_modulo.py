@@ -1,0 +1,2 @@
+from funcoes_com_parametros import quadrado_de_sete
+quadrado_de_sete()

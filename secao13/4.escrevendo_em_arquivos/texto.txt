@@ -1,0 +1,21 @@
+Eu estou estudando na Geek University e estou aprendendo muito no curso de programação em Python: Essencial.
+Para ler conteúdo de um arquivo em Python usamos a função integrada open( ).
+open( ) => a forma mais simples de utilização basta passar apenas um parâmetro de entrada que é o nome do arquivo a ser lido. Essa função retorna um _io_TextIOWrapper e é com ele que trabalhamos.
+https://docs.python.org/3/library/functions.html#open
+Por padrão a função open( ) abre o arquivo para leitura, este arquivo deve existir ou então teremos o erro FileNotFounderError.
+Exemplo.
+Criei um arquivo texto.txt
+arquivo = open('texto.txt')
+print(arquivo)
+print(type(arquivo))
+<_io.TextIOWrapper name='texto.txt' mode='r' encoding='UTF-8'>
+<class '_io.TextIOWrapper'>
+Process finished with exit code 0
+mode='r' => o r significa que o arquivo é apenas para leitura.
+encoding='UTF-8'> => significa que todos os acentos e caracteres especiais serão reconhecidos.
+Para ler o conteúdo de um arquivo, após sua abertura devemos utilizar a função red( )
+print(arquivo.read())
+Eu estou estudando na Geek University e estou aprendendo muito no curso de programação em Python: Essencial.
+Process finished with exit code 0
+Observações: O python utiliza um recurso para trabalhar com arquivos chamado cursor. Esse cursor funciona como o cursor quando estamos escrevendo. Ele vai ler até o final do arquivo e se eu criar um novo print a seguir ele não vai executar nada porque já está no final do arquivo e não tem mais nada para ler.
+A função red lê todo o conteúdo do arquivo.
